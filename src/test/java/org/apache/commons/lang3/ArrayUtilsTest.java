@@ -2,7 +2,6 @@ package org.apache.commons.lang3;
 
 import org.junit.After;
 import org.junit.Assert;
-import org.junit.Before;
 import org.junit.Test;
 
 public class ArrayUtilsTest{
@@ -51,24 +50,24 @@ public class ArrayUtilsTest{
 
 
 
-    @Test
+/*    @Test
     public void testSubarray() {
         //测试用例：一个1-20的整型数组
         int []str = new int [20];
         for (int i = 0; i < 20; i++) {
             str[i] = i + 1;
         }
-/**
+*//**
  * 测试方法：subarray
  * 功能：截取子数组（输入两个位置，数组下标，包头不包尾）
- */
+ *//*
         int [] temstr = ArrayUtils.subarray(str, 5, 15);
 //定义目标结果
         int [] restr = {6,7,8,9,10,11,12,13,14,15};
         Assert.assertArrayEquals(temstr, restr);
 
 
-    }
+    }*/
     @After
     public void tearDown() throws Exception {
     }
